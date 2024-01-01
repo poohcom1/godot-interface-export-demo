@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://h63dxwklolh6"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_gd8a7"]
+[ext_resource type="Script" path="res://ClassA.cs" id="2_r87hb"]
+[ext_resource type="Script" path="res://ClassB.cs" id="3_het30"]
+[ext_resource type="Resource" uid="uid://b8sbev1763cdj" path="res://resource_a.tres" id="3_hjrdt"]
+[ext_resource type="Script" path="res://ClassC.cs" id="4_iuulx"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_gd8a7")
+hammer_type = NodePath("")
+
+[node name="ClassA" type="Node" parent="."]
+script = ExtResource("2_r87hb")
+interfaceExample = ExtResource("3_hjrdt")
+
+[node name="ClassB" type="Node" parent="."]
+script = ExtResource("3_het30")
+
+[node name="ClassC" type="Node" parent="."]
+script = ExtResource("4_iuulx")
