@@ -1,6 +1,4 @@
-namespace TestNamespace;
-
 public interface InterfaceA
 {
-
+    void SayHi();
 }

@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="ResourceB" load_steps=2 format=3 uid="uid://ds26rcbuywpmi"]
+
+[ext_resource type="Script" path="res://classes/ResourceB.cs" id="1_tjtlb"]
+
+[resource]
+script = ExtResource("1_tjtlb")
