@@ -1,18 +1,26 @@
-[gd_scene load_steps=7 format=3 uid="uid://dpq12wtwr7pg"]
+[gd_scene load_steps=9 format=3 uid="uid://dpq12wtwr7pg"]
 
 [ext_resource type="Script" path="res://classes/Exporter.cs" id="1_xgcve"]
+[ext_resource type="Script" path="res://classes/ResourceA.cs" id="2_bkn4i"]
 [ext_resource type="Script" path="res://classes/ClassA.cs" id="2_r87hb"]
 [ext_resource type="Script" path="res://classes/ClassB.cs" id="3_het30"]
 [ext_resource type="Script" path="res://classes/ResourceExporter.cs" id="4_ikrb6"]
 [ext_resource type="Script" path="res://classes/ClassAB.cs" id="7_2abb8"]
 
+[sub_resource type="Resource" id="Resource_hnr4r"]
+script = ExtResource("2_bkn4i")
+name = "ResourceA"
+
 [sub_resource type="Resource" id="Resource_tohry"]
 script = ExtResource("4_ikrb6")
+interfaceAExport = SubResource("Resource_hnr4r")
 
 [node name="Node" type="Node"]
 
-[node name="ExportTest" type="Node" parent="."]
+[node name="ExportTest" type="Node" parent="." node_paths=PackedStringArray("interfaceAExport", "interfaceBExport")]
 script = ExtResource("1_xgcve")
+interfaceAExport = NodePath("../ClassA")
+interfaceBExport = NodePath("../ClassB")
 resourceExporterExport = SubResource("Resource_tohry")
 
 [node name="ClassA" type="Node" parent="."]

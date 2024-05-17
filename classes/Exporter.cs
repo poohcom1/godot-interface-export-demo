@@ -1,14 +1,6 @@
 using Godot;
 using System;
 
-public class TestA : InterfaceA
-{
-    public void SayHi()
-    {
-        GD.Print("Hi from TestA!");
-    }
-}
-
 public partial class Exporter : Node
 {
     [Export]
@@ -23,10 +15,5 @@ public partial class Exporter : Node
     public override void _Ready()
     {
         interfaceAExport?.SayHi();
-    }
-
-    public void SayHi()
-    {
-        //interfaceExample.SayHi();
     }
 }
