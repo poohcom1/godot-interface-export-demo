@@ -18,21 +18,21 @@ If you find any bugs or issues, please create an issue on this repository.
 
 Base feature; allow C# scripts to export interfaces, which can be set with a Resource or Node that implements it.
 
-- Branch: https://github.com/poohcom1/godot/tree/interface-export
+- Branch: https://github.com/poohcom1/godot/tree/interface-export/core
 - PR: https://github.com/godotengine/godot/pull/86946
 
 #### Node drag and drop
 
 Minor patch to allow dragging and dropping nodes onto the interface export property editor (feature parity withe NodePath property editor)
 
-- Branch: https://github.com/poohcom1/godot/tree/interface-node-dnd
+- Branch: https://github.com/poohcom1/godot/tree/interface-export/node-dnd
 - PR: TBA
 
 #### Native interface
 
 Larger patch that modifies the GodotSharp package to include interface implementation for all native Godot classes. This will greatly improve code modularity and allow code to be mocked and unit tested much more easily.
 
-- Branch: https://github.com/poohcom1/godot/tree/native-interface
+- Branch: https://github.com/poohcom1/godot/tree/interface-export/native-interface
 - PR: TBA
 
 ## Test Checklist
