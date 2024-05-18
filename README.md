@@ -38,14 +38,15 @@ Larger patch that modifies the GodotSharp package to include interface implement
 ## Test Checklist
 
 - Interface Export
-  - [ ] [Resource] Should accept resources that implements the interface
-  - [ ] [Resource] Should show quickopen from `Quick load...` with resources marked with `[GlobalClass]`
+  - [ ] [Resource] Should accept resources that implement the interface
+  - [ ] [Resource] Should show a list of global class resources that implements the interface
+  - [ ] [Resource] Should show quick open from `Quick load...` with resources marked with `[GlobalClass]`
   - [ ] [Resource] Should show file picker from `Load...` and verify file after selection
   - [ ] [Resource] Resources drag and drop should work
-  - [ ] [Node] Should accept nodes that implements the interface
-  - [ ] [Node] Should show "Pick a node" button if the containing object is a Node
-  - [ ] [Node] Should show "Clear node" button if node exists
-  - [ ] [Node] Nodepath text should be removed if targeted node is deleted
+  - [ ] [Node] Should accept nodes that implement the interface
+  - [ ] [Node] Should show the "Pick a node" button if the containing object is a Node
+  - [ ] [Node] Should show the "Clear node" button if the node exists
+  - [ ] [Node] Nodepath text should be removed if the targeted node is deleted
 - Node drag and drop
   - [ ] Should only accept correct nodes
   - [ ] Should accept correct resources (regression)
