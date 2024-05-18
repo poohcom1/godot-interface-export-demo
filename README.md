@@ -2,7 +2,7 @@
 
 This is the repository for testing and hosting the [proposed feature to allow exporting C# interface in Godot](https://github.com/godotengine/godot-proposals/issues/8722). The repository itself is a simple Godot game for testing the proposed features and the release section contains prebuilt Godot executables and C# packages for the feature.
 
-I will be maintaining [a fork of Godot](https://github.com/poohcom1/godot/tree/interface-export-branch) which includes the original PR as well as follow-up changes. For stability, the fork will be continuously rebased against the latest stable or dev release of Godot.
+I will be maintaining [a fork of Godot](https://github.com/poohcom1/godot/tree/interface-export/master) which includes the original PR as well as follow-up changes. For stability, the fork will be continuously rebased against the latest stable or dev release of Godot.
 
 ## Installation
 
