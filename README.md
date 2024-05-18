@@ -6,10 +6,11 @@ I will be maintaining [a fork of Godot](https://github.com/poohcom1/godot/tree/i
 
 * PR: https://github.com/godotengine/godot/pull/86946
 * Proposal: https://github.com/godotengine/godot-proposals/issues/8722
+* Download: https://github.com/poohcom1/godot/releases
 
 ## Installation
 
-1. Download the latest release from the [release section](https://github.com/poohcom1/godot-interface-export-demo/releases).
+1. Download the latest `4.3-ie` release from the [fork release](https://github.com/poohcom1/godot/releases).
 2. Install the nuget packages from `GodotSharp/Tools/nupkgs`.
 3. Open up this repository or your own game to test out the features.
 
