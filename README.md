@@ -16,21 +16,30 @@ If you find any bugs or issues, please create an issue on this repository.
 
 ### Interface Export
 
-![Interface export example](.readme/interface_export_example.png)
-
-Base feature; allow C# scripts to export interfaces, which can be set with a Resource or Node that implements it.
+Core feature; allow C# scripts to export interfaces, which can be set with a Resource or Node that implements it.
 
 - Branch: https://github.com/poohcom1/godot/tree/interface-export/core
 - PR: https://github.com/godotengine/godot/pull/86946
 
+![Interface export example](.readme/interface_export_example.png)
+
 ### Node drag and drop
 
-Minor patch to allow dragging and dropping nodes onto the interface export property editor (feature parity withe NodePath property editor)
+Minor patch to allow dragging and dropping nodes onto the interface export property editor (feature parity with NodePath property editor)
 
 - Branch: https://github.com/poohcom1/godot/tree/interface-export/node-dnd
 - PR: TBA
 
 ### Native interface
+
+
+
+Extended feature that modifies the GodotSharp package to include interface implementation for all native Godot classes. This will greatly improve code modularity and allow code to be mocked and unit tested much more easily.
+
+For an existing plugin solution, check out https://github.com/chickensoft-games/GodotNodeInterfaces.
+
+- Branch: https://github.com/poohcom1/godot/tree/interface-export/native-interface
+- PR: TBA
 
 ![Native interfaces in Godot class](.readme/native_interface_example.png)
 
@@ -39,13 +48,6 @@ Minor patch to allow dragging and dropping nodes onto the interface export prope
 ![Native interface usage in unit tests](.readme/native_interface_unit_test_example.png)
 
 > Mocking native nodes in unit tests
-
-Larger patch that modifies the GodotSharp package to include interface implementation for all native Godot classes. This will greatly improve code modularity and allow code to be mocked and unit tested much more easily.
-
-For an existing plugin solution, check out https://github.com/chickensoft-games/GodotNodeInterfaces.
-
-- Branch: https://github.com/poohcom1/godot/tree/interface-export/native-interface
-- PR: TBA
 
 ## Test Checklist
 
