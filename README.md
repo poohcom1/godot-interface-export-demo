@@ -68,6 +68,7 @@ For an existing plugin solution, check out https://github.com/chickensoft-games/
   - [ ] Should only accept correct nodes
   - [ ] Should accept correct resources (regression)
 - Native interface
-  - [ ] Should accept pure nodes/resources that implement the native interface
+  - [ ] Should accept native nodes/resources that implement the native interface
   - [ ] Should accept scripted nodes/resources that implement the native interface
+  - [ ] Should list native resources as well as inheritors in editor property
   - [ ] Should support node drag and drop
